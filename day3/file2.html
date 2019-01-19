@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		/*a[target=_blank]{
+			color: red;
+		}*/
+		p[title~=name]{
+			color:blue;
+		}
+		a[href^="http"]{
+			color: red;
+		}
+		a[href^="https"]{
+			color: purple;
+		}
+		a[href$=".pdf"]{
+			background-color: red;
+			width: 300px;
+			height: 30px;
+			padding: 20px;
+			border-radius: 20px;
+			text-decoration: none;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+<a href="https://www.google.com" target="_blank">Google</a><br>
+<a href="http://www.facebook.com">Facebook</a><br>
+<a href="https://www.youtube.com" target="_blank">Youtube</a>
+<p title="Enter your name">My name is abhiyan bhattarai.</p><br>
+<a href="CSSSelectors.pdf" download>css selectors</a>
+</body>
+</html>
